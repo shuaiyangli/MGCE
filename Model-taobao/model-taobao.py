@@ -19,7 +19,7 @@ data_path = '../Data/'
 #######################################################################
 Hyper-parameter settings.
 '''
-dataset = 'taobao'
+dataset = 'Taobao'
 base_layers = 5
 con_layers = 2
 int_layers = 1
@@ -39,7 +39,7 @@ N_TRAIN, N_TEST = data_generator.n_train, data_generator.n_test
 BATCH_SIZE = batch_size
 Ks = np.arange(1, 21)
 
-if dataset == 'taobao':
+if dataset == 'Taobao':
     textual_enable = False
 else:
     textual_enable = True
